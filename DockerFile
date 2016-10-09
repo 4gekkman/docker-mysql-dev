@@ -17,3 +17,7 @@ RUN apt-get update && apt-get install -y \
   supervisor \
   ; exit 0
 
+# 3. Назначить cmd по умолчанию
+CMD ["/usr/bin/supervisord", "-c", "/etc/supervisor.d/supervisor-docker-mysql-dev.ini"]
+
+
