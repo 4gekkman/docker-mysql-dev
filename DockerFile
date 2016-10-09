@@ -14,6 +14,6 @@ MAINTAINER German Manvelov <4gekkman@gmail.com>
 # 2. Установить необходимые пакеты
 RUN apt-get update && apt-get install -y \
 
-  supervisor
+  supervisor \
   ; exit 0
 
