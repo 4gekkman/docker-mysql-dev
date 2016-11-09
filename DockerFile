@@ -8,7 +8,7 @@
 ##
 
 # 1. Базовый образ и разработчики
-FROM mysql:latest
+FROM mysql:5.7.16
 MAINTAINER German Manvelov <4gekkman@gmail.com>
 
 # 2. Установить необходимые пакеты
