@@ -23,4 +23,4 @@ RUN apt-get update && apt-get install -y \
 CMD ["/usr/bin/supervisord", "-c", "/etc/supervisor.d/supervisor-docker-mysql-dev.ini"]
 
 # 4. Назначить entrypoint
-ENTRYPOINT ["docker-entrypoint.sh"]
+# ENTRYPOINT ["docker-entrypoint.sh"]
