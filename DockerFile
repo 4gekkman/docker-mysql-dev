@@ -10,7 +10,7 @@
 ##
 
 # 1. Базовый образ и разработчики
-FROM mysql:5.7
+FROM mysql:5.7.17
 MAINTAINER German Manvelov <4gekkman@gmail.com>
 
 # 2. Установить необходимые пакеты
